@@ -1,0 +1,21 @@
+""" This is about pyest """
+import pytest
+import cal
+def test_method():
+    """ Find out the boolean value"""
+    get_value = cal.add(30,65)
+    assert get_value==95
+
+def test_method1():
+    """ Find out the boolean value"""
+    get_value = cal.mul(11, 10)
+    assert get_value==110
+
+def test_method3():
+    """ Find out the boolean value"""
+    get_value = cal.sub(50, 25)
+    assert get_value==25
+def test_method4():
+    """ Find out the boolean value"""
+    get_value = cal.div(7, 1)
+    assert get_value==7
