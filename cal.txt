@@ -1,0 +1,70 @@
+class Find:
+
+    def value(self,x):
+        print("Output is = ",x)
+
+class Result(Find):
+
+    def get(self):
+        print("Choose from the below options: ")
+        print("Click 1 for Addition")
+        print("click 2 for Substraction")
+        print("click 3 for multiplication")
+        print("click 4 for Division")
+
+
+def add(x,y):
+    return x+y
+
+def sub(x,y):
+    return x-y
+
+def mul(x,y):
+    return x*y
+
+def div(x,y):
+    return x/y
+
+p=Find()
+q=Result()
+q.get()
+w = int(input("Type the digit with respect to above operation = "))
+
+if w==3:
+    c= int(input("ENTER FIRST NUMBER:"))
+    d=int(input("ENTER SECOND NUMBER:"))
+
+    z=mul(c,d)
+    q.value(z)
+
+elif w==4:
+    c= int(input("ENTER FIRST NUMBER:"))
+    d=int(input("ENTER SECOND NUMBER:"))
+
+
+    try:
+        z=div(c,d)
+        print("Value is ",z)
+
+    except Exception:
+        print("you have given zero in denominator")
+
+    finally:
+        print("result is shown above")
+
+
+elif w==1:
+    c= int(input("ENTER FIRST NUMBER:"))
+    d=int(input("ENTER SECOND NUMBER:"))
+    z=add(c,d)
+    q.value(z)
+
+elif w==2:
+    c= int(input("ENTER FIRST NUMBER:"))
+    d=int(input("ENTER SECOND NUMBER:"))
+
+    z=sub(c,d)
+    q.value(z)
+
+else:
+    print("error input")
