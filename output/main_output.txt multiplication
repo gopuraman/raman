@@ -1,0 +1,16 @@
+Choose from the below options: 
+Click 1 for Addition
+click 2 for Substraction
+click 3 for multiplication
+click 4 for Division
+Type the digit with respect to above operation = 
+3
+ENTER FIRST NUMBER:
+874
+ENTER SECOND NUMBER:
+200
+Output is =  174800
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal

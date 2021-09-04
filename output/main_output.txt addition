@@ -1,0 +1,16 @@
+Choose from the below options: 
+Click 1 for Addition
+click 2 for Substraction
+click 3 for multiplication
+click 4 for Division
+Type the digit with respect to above operation = 
+1
+ENTER FIRST NUMBER:
+60
+ENTER SECOND NUMBER:
+780
+Output is =  840
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
